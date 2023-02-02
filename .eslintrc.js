@@ -3,7 +3,8 @@ const { LoaderTargetPlugin } = require("webpack");
 module.exports = {
     env: {
         browser: true,
-        node: true
+        node: true,
+        jest: true
     },
     extends: [
         //vue
